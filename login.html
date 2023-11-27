@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyTerminator - Login Page</title>
+    <link rel="shortcut icon" href="static/images/python-logo.png" type="image/*">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Login Css -->
+    <link rel="stylesheet" href="static/css/login.css">
+</head>
+<body>
+    <section class="login"> 
+        <div class="container">
+            <div class="switchery" data-val="0">
+                <span></span>
+            </div>
+            <div class="logo">
+                <img src="static/images/python-logo-2.png" alt="PyTerminator">
+            </div>
+            <div class="heading">
+                İstifadəçi adınızı və şifrənizi daxil edərək hesabınıza daxil olun.
+            </div>
+            <div class="alert">
+                <p>
+                    <i class="fa-solid fa-skull-crossbones"></i>
+                    İstifadəçi adı və ya şifrə yanlışdır!
+                </p>
+            </div>
+            <form action="" method="post">
+                <label class="group">
+                    <p>
+                        <i class="fa-solid fa-user"></i>
+                        İstifadəçi adınız
+                    </p>
+                    <input type="text" placeholder="Mushvig Shukurov" autocomplete="off">
+                </label>
+                <label class="group">
+                    <p>
+                        <i class="fa-solid fa-unlock"></i>
+                        Şifrəniz
+                    </p>
+                    <input type="password" name="password" placeholder="#### #### #### #### #### #### #### #### #### #### ##### #### #### #### #### #### #### ####" autocomplete="off">
+                    <i class="fa-solid fa-eye" data-val="0"></i>
+                </label>
+    
+                <label class="remember-me">
+                    <input type="checkbox">
+                    <i class="fa-regular fa-circle-check"></i>
+                    <span>Yadda saxla</span>
+                </label>
+    
+                <button type="submit">Daxil ol</button>
+            </form>
+        </div>
+        
+    </section>
+
+    <script src="static/javascript/login.js"></script>
+</body>
+</html>
